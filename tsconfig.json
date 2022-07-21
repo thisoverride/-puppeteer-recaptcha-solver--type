@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "target": "es5", 
+      "outDir": "dist",
+      "strict": true,
+      "lib": ["ES2015", "DOM"],
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "moduleResolution": "Node",
+    },
+    "include": ["Solver.ts"],
+    "exclude": ["node_modules", "dist"]
+    
+  }
